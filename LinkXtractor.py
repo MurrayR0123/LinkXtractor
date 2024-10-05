@@ -99,7 +99,7 @@ def main():
     args = parser.parse_args()
 
     if args.file is None:
-        print("Usage: ./process_urls.py <file_path>")
+        print("Usage: ./LinkXtractor.py <file_path>")
         print("Provide a path to a text or HTML file to search for URLs containing '//'.")
         return	
         
